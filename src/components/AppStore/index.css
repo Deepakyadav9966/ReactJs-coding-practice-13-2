@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1px;
+  border-radius: 5px;
+}
+.search-image {
+  height: 30px;
+  padding: 3px;
+}
+.search {
+  background-color: transparent;
+  border-width: 0;
+  outline: none;
+  font-size: 18px;
+}
+.line {
+  border: 1px solid #dfe2e5;
+  width: 270px;
+  margin-top: 0px;
+  padding: 0px;
+}
+.ul-tabsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.ul-apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media(max-width:767px){
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    height:100%;
+    padding:20px;
+  }
+}
